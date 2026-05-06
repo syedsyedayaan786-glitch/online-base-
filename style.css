@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(to right, #007BFF, #00c6ff);
+  color: white;
+  padding: 40px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+/* SECTION */
+.section {
+  padding: 50px 20px;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  margin: 15px;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* ICON */
+.icon {
+  font-size: 30px;
+  color: #007BFF;
+}
+
+/* IMAGE */
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.order-btn {
+  padding: 12px 25px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* CONTACT */
+.contact {
+  background: #f4f4f4;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+  padding: 15px;
+}
